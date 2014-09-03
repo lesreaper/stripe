@@ -18,6 +18,11 @@ gem 'rails_12factor', group: :production
 gem 'sass-rails', '~> 4.0.3'
 gem 'bootstrap-sass'
 
+# Add stripe for payment processing
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
+gem 'figaro'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
