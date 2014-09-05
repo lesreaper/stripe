@@ -21,7 +21,11 @@ gem 'bootstrap-sass'
 # Add stripe for payment processing
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
+# Manage Secure Stripe Information
 gem 'figaro'
+
+# Manage Emaisl for SendGrid locally
+gem 'letter_opener', :group => :development
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
