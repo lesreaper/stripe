@@ -27,6 +27,12 @@ gem 'figaro'
 # Manage Emaisl for SendGrid locally
 gem 'letter_opener', :group => :development
 
+# Generate Admin Interface
+gem 'activeadmin', github: 'gregbell/active_admin'
+
+# Add devise to support for login for ActiveAdmin
+gem 'devise'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
